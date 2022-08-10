@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* outline: 1px dashed red; */
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 970px;
+    display: flex;
+    flex-direction: column;
+    background-color: #245076;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 5px 10px 20px 20px;
+}
+.header img { width: 300px; }
+
+.header p {
+    margin-left: 120px;
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+}
+
+.header a { color: yellow; }
+
+.header span { color: black; }
+
+.searchbox {
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #444444;
+    box-shadow: 2px 2px 2px #1f1f1f;
+}
+
+.inputbox {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid grey;
+}
+
+button {
+    padding: 5px;
+    font-size: 12px;
+    color: white;
+    border: 1px solid silver;
+    border-radius: 5px;
+    background-color: #245076;
+    box-shadow: 2px 2px 2px #1f1f1f;
+}
+
+/* END OF STYLING FOR HEADER ELEMENTS */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    max-width: 850px;
+    margin: 10px 0 20px 70px;
+    background-color: #4981AF;
+    box-shadow: 2px 2px 2px #1f1f1f;
+    border-radius: 5px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+/* END OF STYLING FOR NAVBAR ELEMENTS */
+
+.upper-content {
+    display: flex;
+    max-width: 870px;
+    margin: 0 0 20px 70px;
+}
+
+.index {
+    display: flex;
+    flex-basis: 75%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px;
+    list-style-position: inside;
+    color: yellow;
+}
+
+.index ul li { margin-top: 10px; }
+
+.index a {
+    font-size: 14px;
+    color: white;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.description > :first-child {
+    font-size: 12px;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.description p {
+    font-style: italic;
+    color: yellow;
+}
+
+.description > :last-child {
+    font-size: 14px;
+    font-style: normal;
+    color: white;
+}
+
+p { padding: 5px; }
+
+/* END OF STYLING FOR UPPER CONTENT ELEMENTS */
+
+.lower-content {
+    display: flex;
+    background-color: white;
+}
+
+.getting-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 0 75px;
+    border-top: 3px solid #4981AF;
+}
+
+.getting-started h5 {
+    padding: 5px;
+    padding-right: 100px;
+}
+
+.getting-started p {
+    padding-right: 100px;
+    padding: 2px 25px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.getting-started li {
+    padding-right: 100px;
+    padding-left: 5px;
+    font-size: 12px;
+    text-align: center;
+    list-style-type: square;
+}
+
+.getting-started a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #6ea0cc;
+}
+
+.applications {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 40px 10px 10px;
+    border-top: 3px solid #4981AF;
+}
+
+.applications h5 { padding: 5px 100px 0 25px; }
+
+.applications p {
+    padding: 2px 100px 0 25px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.applications span { color: #6ea0cc; }
+
+.applications li {
+    padding-right: 100px;
+    padding-left: 15px;
+    font-size: 12px;
+    text-align: center;
+    list-style-type: square;
+}
+
+.applications a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #6ea0cc;
+}
+
+/* END OF STYLING FOR LOWER CONTENT ELEMENTS */
+
+.footer {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    /* I didn't like the color at the bottom of whatever terrible gradient they used so I embilished and made my own which I think is wayy better. */
+    background-image: linear-gradient(to bottom, rgb(66, 116, 160) 0%,rgba(83,159,225,1) 0%,rgba(53,92,183,1) 0%,rgba(10,119,213,1) 50%,rgb(36, 81, 121) 100%,rgb(48, 84, 117) 100%,rgb(36, 84, 126) 100%);
+}
+
+.bottom-links {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 150px;
+}
+
+.bottom-links a {
+    font-size: 14px;
+    color: #6ea0cc;
+    text-decoration: none;
+}
+
+footer {
+    align-self: center;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 8px;
+    color: #6ea0cc;
+}
